@@ -15,7 +15,7 @@ const Home = () => {
       </div>
       <div style={{ padding: "10px 20px", textAlign: "justify" }}>
         <h1 style={{ color: "#1976d2" }}>{translate('heading-home')}</h1>
-        <p>{translate('home')}</p>
+        <p className='pera'>{translate('home')}</p>
       </div>
     </div>
   );

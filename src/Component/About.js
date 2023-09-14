@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <div style={{ padding:"10px 20px", textAlign: "justify"}}>
         <h1 style={{ color: "#1976d2" }}>{translate('heading')}</h1>
-        <p>{translate('about')}</p>
+        <p className='pera'>{translate('about')}</p>
       </div>
     </div>
   );
