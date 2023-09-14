@@ -73,4 +73,12 @@
         border-radius: 10px;
         width: 114px;
     }
+    .button-group-div {
+        display: flex;
+        gap: 20px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 20px 40px;
+        border-radius: 10px;
+    }
 }

@@ -5,7 +5,7 @@ import "./About.css";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import download from "../download.png";
+import download from "../pngtree.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => {
@@ -18,12 +18,12 @@ const Home = () => {
         <button className='button-col'>
           <Link style={{ color: "#fff", textDecoration: "none" }} to="/about">{translate('heading')}</Link></button>
       </div>
-      <p className='h1'>{translate('heading-home')}</p>
+      <p className='heading'>{translate('heading-home')}</p>
       <Row style={{ padding: "10px 20px", textAlign: "justify" }} className='pera-head'>
-        <Col xs={12} lg={6} className='img-div'>
-          <img src={download} alt='food' className='img' />
+        <Col xs={12} lg={6} md={12} xl={6} className='img-div'>
+          <img src={download} alt='food' className='img-food' />
         </Col>
-        <Col xs={12} lg={6} className='pera-div-pera'>
+        <Col xs={12} lg={6} md={12} xl={6} className='pera-div-pera'>
           <p className='pera'>{translate('home')}</p>
         </Col>
       </Row>

@@ -29,7 +29,7 @@
     color: #fff;
     font-weight: 600;
     border: none;
-    font-size: 15px;
+    font-size: 16px;
     border-radius: 10px;
 }
 
@@ -37,51 +37,116 @@
 .background {
     background-color: #cba12f;
     /* You can set other background styles here */
-  }
-  
-  /* Text color */
-  .text {
-    color: #2f5ecb; /* Complementary color or any other text color of your choice */
+}
+
+/* Text color */
+.text {
+    color: #2f5ecb;
+    /* Complementary color or any other text color of your choice */
     /* You can set other text styles here */
-  }
-  
-  .pera-head{
+}
+
+.pera-head {
     display: flex;
     flex-direction: row;
-  }
+}
 
-  .img{
-    width: 500px;
-  }
 
-  .back{
+.back {
     padding: 0px 40px;
-  }
+}
 
-  h1{
+.heading {
     font-size: 25px;
     color: #cba12f;
 }
 
-  /* Styles for screens with a width between 600px and 1000px */
-@media screen and (min-width: 200px) and (max-width: 500px) {
+@media screen and (min-width: 500px) and (max-width: 800px) {
+
     /* Your CSS styles for this screen size range */
-    .pera-head{
+    .pera-head {
         display: flex;
         flex-direction: column;
-      }
-      .img{
-        width: 100%;
-      }
-      .pera {
+    }
+
+    .img-food {
+        width: 450px;
+    }
+
+    .pera {
         /* margin-top: 20px; */
         font-size: 14px;
         color: #010101;
     }
 
-    h1{
+    .heading {
         font-size: 22px;
         color: #cba12f;
     }
-  }
-  
+
+    .img-div {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 2000px) {
+
+    /* Your CSS styles for this screen size range */
+    .pera-head {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-food {
+        width: 500px;
+    }
+
+    .pera {
+        /* margin-top: 20px; */
+        font-size: 16px;
+        color: #010101;
+    }
+
+    .heading {
+        font-size: 30px;
+        color: #cba12f;
+    }
+
+    .img-div {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+
+    /* Your CSS styles for this screen size range */
+    .pera-head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-food {
+        width: 300px;
+    }
+
+    .pera {
+        /* margin-top: 20px; */
+        font-size: 14px;
+        color: #010101;
+    }
+
+    .heading {
+        font-size: 22px;
+        color: #cba12f;
+    }
+
+    .img-div {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
