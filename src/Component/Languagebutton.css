@@ -1,0 +1,44 @@
+.button-group-div {
+    display: flex;
+    gap: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 25px 40px;
+    border-radius: 10px;
+}
+
+.custom-button {
+    background-color: #d50ed5;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.french {
+    background-color: #f30a0a;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.hindi {
+    background-color: #44eb44;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* styles.css */
+
+.custom-select {
+    width: 200px; /* Set the width as needed */
+    padding: 10px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .custom-select:focus {
+    border-color: #007bff; /* Change border color on focus */
+  }
+  
