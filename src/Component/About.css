@@ -47,3 +47,11 @@
     /* You can set other text styles here */
   }
   
+  .pera-head{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img{
+    width: 500px;
+  }

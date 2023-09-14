@@ -13,7 +13,7 @@ const About = () => {
         <button className='button-col'><Link style={{ color: "#fff", textDecoration: "none" }} to="/home">{translate('heading-home')}</Link></button>
         <button className='button-col'>{translate('heading')}</button>
       </div>
-      <div style={{ padding:"10px 20px", textAlign: "justify"}}>
+      <div style={{ padding:"10px 20px", textAlign: "justify"}} className='pera-head'>
         <h1 style={{ color: "#cba12f" }}>{translate('heading')}</h1>
         <p className='pera'>{translate('about')}</p>
       </div>
