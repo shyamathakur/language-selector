@@ -1,7 +1,6 @@
 import React from 'react';
 import { useLanguage } from './LanguageContext';
 import { Link } from 'react-router-dom';
-import Button from '@mui/material/Button';
 import "./About.css";
 
 const About = () => {
@@ -14,7 +13,7 @@ const About = () => {
         <button className='button-col'>{translate('heading')}</button>
       </div>
       <div style={{ padding:"10px 20px", textAlign: "justify"}} >
-        <p className='h1'>{translate('heading')}</p>
+        <p className='heading'><strong>{translate('heading')}</strong></p>
         <p className='pera'>{translate('about')}</p>
       </div>
     </div>

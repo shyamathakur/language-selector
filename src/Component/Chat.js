@@ -1,8 +1,6 @@
 import React from 'react';
-// import './App.css';
 import { LanguageProvider } from './LanguageContext';
 import Home from './Home';
-import About from './About';
 import LanguageSelector from './LanguageSelector';
 
 function App() {
@@ -11,7 +9,6 @@ function App() {
       <LanguageProvider>
         <LanguageSelector />
         <Home />
-        {/* <About /> */}
       </LanguageProvider>
     </div>
   );
