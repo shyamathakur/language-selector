@@ -15,12 +15,14 @@
     border-radius: 10px;
 }
 
-.pera{
+.pera {
     margin-top: 20px;
+    color: #3d3b3bbd;
 }
 
 .button-col {
-    background-color: #cba12f;
+    /* background-color: #cba12f; */
+    background-color: #3d3b3bbd;
     padding: 12px 20px;
     color: #fff;
     font-weight: 600;
