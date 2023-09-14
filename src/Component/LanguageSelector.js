@@ -70,10 +70,10 @@ const LanguageSelector = () => {
 
         {/* <p>Selected Language: {selectedLanguage}</p> */}
         <select className="custom-select" value={selectedOption} onChange={handleOptionChange}>
-          <option value="">Language</option>
-          <option value="en">English</option>
-          <option value="hi">हिंदी</option>
-          <option value="fr">Français</option>
+          <option className='option' value="">Language</option>
+          <option className='option' value="en">English</option>
+          <option className='option' value="hi">हिंदी</option>
+          <option className='option' value="fr">Français</option>
         </select>
       </div>
     </div>

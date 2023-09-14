@@ -36,9 +36,18 @@
     outline: none;
     padding: 10px 8px;
     width: 200px;
+    -webkit-appearance: none;
+    /* Hide the default arrow on Webkit browsers */
+    -moz-appearance: none;
+    /* Hide the default arrow on Firefox */
+    appearance: none;
 }
-  
-  .custom-select:focus {
-    border-color: #007bff; /* Change border color on focus */
-  }
-  
+
+.custom-select:focus {
+    border-color: #007bff;
+    /* Change border color on focus */
+}
+
+.option {
+    padding: 5px;
+}
