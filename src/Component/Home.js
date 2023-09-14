@@ -13,20 +13,20 @@ const Home = () => {
 
   return (
     <div className='back'>
-        <div className='button-group-about'>
-          <button className='button-col'>{translate('heading-home')}</button>
-          <button className='button-col'>
-            <Link style={{ color: "#fff", textDecoration: "none" }} to="/about">{translate('heading')}</Link></button>
-        </div>
-        <Row style={{ padding: "10px 20px", textAlign: "justify" }} className='pera-head'>
-          <h1 style={{ color: "#cba12f" }}>{translate('heading-home')}</h1>
-          <Col xs={6} lg={6} className='img-div'>
-            <img src={download} alt='food' className='img'/>
-          </Col>
-          <Col xs={6} lg={6} className='pera-div-pera'>
-            <p className='pera'>{translate('home')}</p>
-          </Col>
-        </Row>
+      <div className='button-group-about'>
+        <button className='button-col'>{translate('heading-home')}</button>
+        <button className='button-col'>
+          <Link style={{ color: "#fff", textDecoration: "none" }} to="/about">{translate('heading')}</Link></button>
+      </div>
+      <p className='h1'>{translate('heading-home')}</p>
+      <Row style={{ padding: "10px 20px", textAlign: "justify" }} className='pera-head'>
+        <Col xs={12} lg={6} className='img-div'>
+          <img src={download} alt='food' className='img' />
+        </Col>
+        <Col xs={12} lg={6} className='pera-div-pera'>
+          <p className='pera'>{translate('home')}</p>
+        </Col>
+      </Row>
     </div>
   );
 };

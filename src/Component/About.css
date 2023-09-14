@@ -2,7 +2,7 @@
     display: flex;
     gap: 20px;
     border: none;
-    padding: 15px 22px;
+    padding: 15px 0px;
 }
 
 .button-group-div {
@@ -11,18 +11,20 @@
     background-color: #cba12f;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 25px 22px;
+    padding: 25px 0px;
     border-radius: 10px;
 }
 
 .pera {
     margin-top: 20px;
-    color: #3d3b3bbd;
+    font-size: 18px;
+    color: #010101;
 }
+
 
 .button-col {
     /* background-color: #cba12f; */
-    background-color: #3d3b3bbd;
+    background-color: #696767;
     padding: 12px 20px;
     color: #fff;
     font-weight: 600;
@@ -30,10 +32,6 @@
     font-size: 15px;
     border-radius: 10px;
 }
-
-/* .back{
-    background-image: url(../back.avif);
-} */
 
 /* Background color */
 .background {
@@ -55,3 +53,35 @@
   .img{
     width: 500px;
   }
+
+  .back{
+    padding: 0px 40px;
+  }
+
+  h1{
+    font-size: 25px;
+    color: #cba12f;
+}
+
+  /* Styles for screens with a width between 600px and 1000px */
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    /* Your CSS styles for this screen size range */
+    .pera-head{
+        display: flex;
+        flex-direction: column;
+      }
+      .img{
+        width: 100%;
+      }
+      .pera {
+        /* margin-top: 20px; */
+        font-size: 14px;
+        color: #010101;
+    }
+
+    h1{
+        font-size: 22px;
+        color: #cba12f;
+    }
+  }
+  
