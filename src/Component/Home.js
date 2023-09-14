@@ -15,7 +15,7 @@ const Home = () => {
           <Link style={{ color: "#fff", textDecoration: "none" }} to="/about">{translate('heading')}</Link></button>
       </div>
       <div style={{ padding: "10px 20px", textAlign: "justify" }}>
-        <h1 style={{ color: "#2f5ecb" }}>{translate('heading-home')}</h1>
+        <h1 style={{ color: "#cba12f" }}>{translate('heading-home')}</h1>
         <p className='pera'>{translate('home')}</p>
       </div>
     </div>
