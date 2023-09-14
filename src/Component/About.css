@@ -8,7 +8,7 @@
 .button-group-div {
     display: flex;
     gap: 20px;
-    background-color: #6b83af;
+    background-color: #cba12f;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 25px 22px;
@@ -20,7 +20,7 @@
 }
 
 .button-col {
-    background-color: #6b83af;
+    background-color: #cba12f;
     padding: 12px 20px;
     color: #fff;
     font-weight: 600;
@@ -28,3 +28,20 @@
     font-size: 15px;
     border-radius: 10px;
 }
+
+/* .back{
+    background-image: url(../back.avif);
+} */
+
+/* Background color */
+.background {
+    background-color: #cba12f;
+    /* You can set other background styles here */
+  }
+  
+  /* Text color */
+  .text {
+    color: #2f5ecb; /* Complementary color or any other text color of your choice */
+    /* You can set other text styles here */
+  }
+  
