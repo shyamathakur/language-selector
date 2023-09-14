@@ -7,47 +7,61 @@
     border-radius: 10px;
 }
 
-.custom-button {
-    background-color: #d50ed5;
-    color: #fff;
-    border-radius: 10px;
+.select-dropdown:focus {
+    border-color: #007bff;
 }
 
-.french {
-    background-color: #f30a0a;
-    color: #fff;
-    border-radius: 10px;
+.option {
+    padding: 5px;
 }
 
-.hindi {
-    background-color: #44eb44;
-    color: #fff;
-    border-radius: 10px;
-}
-
-/* styles.css */
-
-.custom-select {
+.select-dropdown,
+.select-dropdown * {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
     background-color: #fff;
     border: 2px solid #ccc;
     border-radius: 10px;
     color: #333;
     font-size: 16px;
     outline: none;
-    padding: 10px 8px;
     width: 200px;
+}
+
+.select-dropdown {
+    position: relative;
+    background-color: #E6E6E6;
+    border-radius: 10px;
+}
+
+.select-dropdown select {
+    font-size: 1rem;
+    font-weight: normal;
+    max-width: 100%;
+    padding: 8px 24px 8px 10px;
+    border: none;
+    background-color: transparent;
     -webkit-appearance: none;
-    /* Hide the default arrow on Webkit browsers */
     -moz-appearance: none;
-    /* Hide the default arrow on Firefox */
     appearance: none;
 }
 
-.custom-select:focus {
-    border-color: #007bff;
-    /* Change border color on focus */
+.select-dropdown select:active {
+    outline: none;
+    box-shadow: none;
 }
 
-.option {
-    padding: 5px;
+.select-dropdown:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    width: 0;
+    height: 0;
+    margin-top: -2px;
+    border-top: 5px solid #aaa;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
 }

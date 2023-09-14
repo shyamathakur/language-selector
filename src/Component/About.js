@@ -10,11 +10,11 @@ const About = () => {
   return (
     <div>
       <div className='button-group-about'>
-        <Button variant="contained"><Link style={{ color: "#fff", textDecoration: "none" }} to="/home">{translate('heading-home')}</Link></Button>
-        <Button variant="contained">{translate('heading')}</Button>
+        <button className='button-col'><Link style={{ color: "#fff", textDecoration: "none" }} to="/home">{translate('heading-home')}</Link></button>
+        <button className='button-col'>{translate('heading')}</button>
       </div>
       <div style={{ padding:"10px 20px", textAlign: "justify"}}>
-        <h1 style={{ color: "#1976d2" }}>{translate('heading')}</h1>
+        <h1 style={{ color: "#6b83af" }}>{translate('heading')}</h1>
         <p className='pera'>{translate('about')}</p>
       </div>
     </div>
